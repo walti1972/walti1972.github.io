@@ -34,9 +34,22 @@
       margin-top: 36px;
       color: #93c5fd;
     }
+    h3 {
+      margin: 0 0 8px;
+      color: #f8fafc;
+      font-size: 1.25rem;
+    }
     p {
       color: #cbd5e1;
       font-size: 1.05rem;
+    }
+    ul {
+      margin: 16px 0 0;
+      padding-left: 22px;
+      color: #cbd5e1;
+    }
+    li {
+      margin: 6px 0;
     }
     a {
       color: #60a5fa;
@@ -49,6 +62,42 @@
       margin-top: 36px;
       font-size: .95rem;
       color: #94a3b8;
+    }
+    .project {
+      margin-top: 18px;
+      border: 1px solid #26384f;
+      border-radius: 16px;
+      padding: 24px;
+      background: #0b1220;
+    }
+    .project-meta {
+      margin: 0 0 12px;
+      color: #93c5fd;
+      font-weight: 700;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      font-size: .82rem;
+    }
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .project-links a {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #315a8d;
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: #132238;
+      color: #bfdbfe;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .project-links a:hover {
+      border-color: #60a5fa;
+      color: #eff6ff;
     }
   </style>
 </head>
@@ -75,13 +124,37 @@
         project indexes under strict runtime governance.
       </p>
 
+      <h2>Open-source developer infrastructure</h2>
+      <article class="project">
+        <p class="project-meta">MCP / C++ source navigation</p>
+        <h3>mcp-cpp-project-indexer</h3>
+        <p>
+          A deterministic C++ source-range indexer for MCP-based AI code
+          navigation. It helps tool-using AI systems locate symbols, data
+          declarations, C++20 modules, include relationships and exact source
+          ranges before making source-grounded claims.
+        </p>
+        <p>
+          Core principle: <strong>Find code. Read code. Do not guess code.</strong>
+        </p>
+        <ul>
+          <li>Designed for metadata-first navigation and exact source reads.</li>
+          <li>Supports large C++ projects, including C++20 module-heavy codebases.</li>
+          <li>Provides MCP tools, HTTP server mode, watcher updates and a terminal management UI.</li>
+          <li>Built to reduce broad file scanning, tool loops and unsupported semantic assumptions.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/walti1972/mcp-cpp-project-indexer">GitHub repository</a>
+        </div>
+      </article>
+
       <h2>Contact</h2>
       <p>
         Email: <a href="mailto:mw@mef-programming.eu">mw@mef-programming.eu</a>
       </p>
 
       <p class="footer">
-        Founder: Mike Walter — Windows/C++ engineering, native UI architecture,
+        Founder: Mike Walter - Windows/C++ engineering, native UI architecture,
         AI tooling and developer infrastructure.
       </p>
     </section>
