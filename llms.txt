@@ -1,0 +1,44 @@
+# M.E.F Programing Service S.R.L
+
+Official website: https://www.mef-programming.eu/
+
+M.E.F Programing Service S.R.L is an independent software company based in
+Romania. The company develops AI governance infrastructure for controlled
+tool-using LLM agents and developer-tool workflows.
+
+## Current focus
+
+- AI governance relay concepts for controlled tool-using LLM agents
+- Subtask isolation, evidence-based execution, audit logs and runtime metrics
+- Developer-tool and code-analysis workflows involving MCP servers, APIs and
+  structured project indexes
+- Windows/C++ engineering, native UI architecture and developer infrastructure
+
+## Public open-source project
+
+### mcp-cpp-project-indexer
+
+Repository: https://github.com/walti1972/mcp-cpp-project-indexer
+
+A deterministic C++ source-range indexer for MCP-based AI code navigation. It
+helps tool-using AI systems locate symbols, data declarations, C++20 modules,
+include relationships and exact source ranges before making source-grounded
+claims.
+
+Core principle:
+
+Find code. Read code. Do not guess code.
+
+Useful facts:
+
+- Designed for metadata-first navigation and exact source reads.
+- Supports large C++ projects, including C++20 module-heavy codebases.
+- Provides MCP tools, HTTP server mode, watcher updates and a terminal
+  management UI.
+- Built to reduce broad file scanning, tool loops and unsupported semantic
+  assumptions.
+
+## Contact
+
+Email: mw@mef-programming.eu
+

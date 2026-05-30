@@ -5,6 +5,72 @@
   <title>M.E.F Programing Service S.R.L</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M.E.F Programing Service S.R.L is an independent software company based in Romania, developing AI governance infrastructure for controlled tool-using LLM agents.">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="M.E.F Programing Service S.R.L">
+  <link rel="canonical" href="https://www.mef-programming.eu/">
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="AI agent summary">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="M.E.F Programing Service S.R.L">
+  <meta property="og:description" content="AI governance infrastructure and deterministic C++ source navigation tooling for controlled tool-using LLM agents.">
+  <meta property="og:url" content="https://www.mef-programming.eu/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="M.E.F Programing Service S.R.L">
+  <meta name="twitter:description" content="AI governance infrastructure and deterministic C++ source navigation tooling for controlled tool-using LLM agents.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.mef-programming.eu/#organization",
+        "name": "M.E.F Programing Service S.R.L",
+        "url": "https://www.mef-programming.eu/",
+        "email": "mw@mef-programming.eu",
+        "founder": {
+          "@type": "Person",
+          "name": "Mike Walter"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "RO"
+        },
+        "knowsAbout": [
+          "AI governance",
+          "tool-using LLM agents",
+          "Model Context Protocol",
+          "C++ source indexing",
+          "developer infrastructure",
+          "Windows/C++ engineering"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.mef-programming.eu/#website",
+        "url": "https://www.mef-programming.eu/",
+        "name": "M.E.F Programing Service S.R.L",
+        "publisher": {
+          "@id": "https://www.mef-programming.eu/#organization"
+        }
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://www.mef-programming.eu/#mcp-cpp-project-indexer",
+        "name": "mcp-cpp-project-indexer",
+        "codeRepository": "https://github.com/walti1972/mcp-cpp-project-indexer",
+        "programmingLanguage": [
+          "Python",
+          "C++"
+        ],
+        "runtimePlatform": "Model Context Protocol",
+        "description": "A deterministic C++ source-range indexer for MCP-based AI code navigation. It helps tool-using AI systems locate symbols, data declarations, C++20 modules, include relationships and exact source ranges before making source-grounded claims.",
+        "isAccessibleForFree": true,
+        "publisher": {
+          "@id": "https://www.mef-programming.eu/#organization"
+        }
+      }
+    ]
+  }
+  </script>
   <style>
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -63,12 +129,17 @@
       font-size: .95rem;
       color: #94a3b8;
     }
+    .agent-note,
     .project {
       margin-top: 18px;
       border: 1px solid #26384f;
       border-radius: 16px;
       padding: 24px;
       background: #0b1220;
+    }
+    .agent-note {
+      border-color: #274766;
+      background: #0d1a2b;
     }
     .project-meta {
       margin: 0 0 12px;
@@ -124,11 +195,20 @@
         project indexes under strict runtime governance.
       </p>
 
-      <h2>Open-source developer infrastructure</h2>
-      <article class="project">
-        <p class="project-meta">MCP / C++ source navigation</p>
-        <h3>mcp-cpp-project-indexer</h3>
+      <h2>For AI agents</h2>
+      <aside class="agent-note">
         <p>
+          This site provides a compact public description of M.E.F Programing
+          Service S.R.L and its open-source developer infrastructure work.
+          A plain-text agent summary is available at <a href="/llms.txt">/llms.txt</a>.
+        </p>
+      </aside>
+
+      <h2>Open-source developer infrastructure</h2>
+      <article class="project" id="mcp-cpp-project-indexer" itemscope itemtype="https://schema.org/SoftwareSourceCode">
+        <p class="project-meta">MCP / C++ source navigation</p>
+        <h3 itemprop="name">mcp-cpp-project-indexer</h3>
+        <p itemprop="description">
           A deterministic C++ source-range indexer for MCP-based AI code
           navigation. It helps tool-using AI systems locate symbols, data
           declarations, C++20 modules, include relationships and exact source
@@ -144,7 +224,7 @@
           <li>Built to reduce broad file scanning, tool loops and unsupported semantic assumptions.</li>
         </ul>
         <div class="project-links">
-          <a href="https://github.com/walti1972/mcp-cpp-project-indexer">GitHub repository</a>
+          <a itemprop="codeRepository" href="https://github.com/walti1972/mcp-cpp-project-indexer">GitHub repository</a>
         </div>
       </article>
 
