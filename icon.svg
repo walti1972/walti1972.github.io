@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-  <defs>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#93c5fd"/>
-    </linearGradient>
-  </defs>
-  <!-- Left loop -->
-  <path d="M 3 8 C 3 4, 6.5 4, 7.2 6.5" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-  <path d="M 7.2 9.5 C 6.5 12, 3 12, 3 8" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-  <!-- Right loop -->
-  <path d="M 8.8 6.5 C 9.5 4, 13 4, 13 8" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-  <path d="M 13 8 C 13 12, 9.5 12, 8.8 9.5" stroke="url(#g1)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-  <!-- Break — governance cut -->
-  <line x1="7.4" y1="7" x2="8.6" y2="9" stroke="#f97316" stroke-width="1.2" stroke-linecap="round"/>
-</svg>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64"><defs><style>.st1{fill:none;stroke:#68b8ff;stroke-width:4px}</style></defs><rect width="64" height="64" rx="14" ry="14" style="fill:#0b1627"/><path d="M13 32h12m14 0h12" style="stroke:#8fd3ff;stroke-linecap:round;stroke-width:5px"/><circle class="st1" cx="18" cy="32" r="8"/><circle class="st1" cx="46" cy="32" r="8"/><path d="m32 18 8 6v16l-8 6-8-6V24z" style="stroke-width:4px;fill:#111f33;stroke:#f97316;stroke-linejoin:round"/><rect x="30" y="27" width="4" height="10" rx="1" ry="1" style="fill:#f8fafc;isolation:isolate;opacity:.9"/></svg>
