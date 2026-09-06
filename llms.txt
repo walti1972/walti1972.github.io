@@ -3,8 +3,22 @@
 Official website: https://www.mef-programming.eu/
 
 M.E.F Programing Service S.R.L is an independent software company based in
-Romania. The company develops AI governance infrastructure for controlled
-LLM-agent and developer-tool workflows.
+Romania. It combines more than three decades of native Windows and C++ product
+engineering with deterministic AI tooling, controlled tool-use workflows and
+evidence-based model evaluation.
+
+## Engineering foundation
+
+Founder Mike Walter has worked as a Senior C++ Engineer on SmartFTP since 1996.
+The work includes a Direct2D/DirectWrite rendering pipeline, application UI
+systems built on Microsoft's undocumented DirectUI framework, XML .ui resource
+definitions, a custom UxTheme-to-Direct2D renderer, DirectComposition, Ribbon
+and docking systems, custom controls, DPI-aware behavior and Windows UI
+Automation accessibility support.
+
+SmartFTP: https://www.smartftp.com/en-us/
+
+This production work was designed and implemented without AI assistance.
 
 ## Current focus
 
@@ -13,12 +27,19 @@ LLM-agent and developer-tool workflows.
 - Developer-tool and code-analysis workflows involving MCP-compatible source
   navigation surfaces, APIs and structured project indexes
 - Windows/C++ engineering, native UI architecture and developer infrastructure
+- Private research into compact, specialized language systems for bounded
+  understanding, query construction and natural-language generation
+- ModelBuilder, a new private native Windows teaching application for learning
+  language-model fundamentals, training, evaluation and testing
+
+Architecture, training material and experimental results for the specialized
+language systems remain private. No capability or release claim is made here.
 
 ## Public open-source projects
 
 ### mcp-cpp-project-indexer
 
-Repository: https://github.com/walti1972/mcp-cpp-project-indexer
+Repository: https://github.com/mef-programming/mcp-cpp-project-indexer
 
 A deterministic C++ source-range indexer for MCP-based AI code navigation. It
 helps tool-using AI systems locate symbols, data declarations, C++20 modules,
@@ -36,7 +57,7 @@ Useful facts:
 
 ### mcp-typescript-project-indexer
 
-Repository: https://github.com/walti1972/mcp-typescript-project-indexer
+Repository: https://github.com/mef-programming/mcp-typescript-project-indexer
 
 A deterministic TypeScript/JavaScript source-range indexer for MCP-based AI code
 navigation. It maps symbols, files, imports and exports to exact source ranges
@@ -52,7 +73,10 @@ Useful facts:
 
 ## Core principle
 
-Find code. Read code. Do not guess code.
+Find the evidence. Read the evidence. Do not guess beyond the evidence.
+
+Models may propose. Deterministic systems and human review retain authority over
+validation and execution.
 
 ## Contact
 
